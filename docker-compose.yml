@@ -17,7 +17,7 @@ services:
     restart: always
 
   ros-rosbridge-suite:
-    image: ghcr.io/rosblox/ros-rosbridge-websuite:humble
+    image: ghcr.io/rosblox/ros-rosbridge-suite:humble
     ports:
       - 9090:9090
     restart: always
