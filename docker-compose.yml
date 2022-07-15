@@ -9,7 +9,7 @@ services:
     restart: always
 
   rosblox-studio:
-    image: ghcr.io/rosblox/studio
+    image: ghcr.io/rosblox/studio:latest
     volumes:
       - ./studio/layout.json:/src/layout.json
     ports:
@@ -17,14 +17,14 @@ services:
     restart: always
 
   ros-rosbridge-suite:
-    image: ghcr.io/rosblox/ros:${ROS_DISTRO}-rosbridge-suite
+    image: ghcr.io/rosblox/ros-rosbridge-websuite:humble
     ports:
       - 9090:9090
     restart: always
     command: ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 
   ros-lis3dh:
-    image: ghcr.io/rosblox/ros:${ROS_DISTRO}-lis3dh
+    image: ghcr.io/rosblox/ros-lis3dh:humble
     devices:
       - "/dev/i2c-1:/dev/i2c-1"
     restart: always
