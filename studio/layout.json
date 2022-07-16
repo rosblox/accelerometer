@@ -1,30 +1,40 @@
 {
-    "configById": {
-      "Plot!3fa5k5u": {
-        "title": "Plot",
-        "paths": [
-          {
-            "value": "/topic.data",
-            "enabled": true,
-            "timestampMethod": "receiveTime"
-          }
-        ],
-        "showXAxisLabels": true,
-        "showYAxisLabels": true,
-        "showLegend": true,
-        "legendDisplay": "floating",
-        "showPlotValuesInLegend": false,
-        "isSynced": true,
-        "xAxisVal": "timestamp",
-        "sidebarDimension": 240
-      }
-    },
-    "globalVariables": {},
-    "userNodes": {},
-    "linkedGlobalVariables": [],
-    "playbackConfig": {
-      "speed": 1,
-      "messageOrder": "receiveTime"
-    },
-    "layout": "Plot!3fa5k5u"
-  }
+  "configById": {
+    "Plot!3fa5k5u": {
+      "title": "Plot",
+      "paths": [
+        {
+          "value": "/blox_lis3dh/data.vector.x",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "/blox_lis3dh/data.vector.y",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "/blox_lis3dh/data.vector.z",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "linkedGlobalVariables": [],
+  "playbackConfig": {
+    "speed": 1,
+    "messageOrder": "receiveTime"
+  },
+  "layout": "Plot!3fa5k5u"
+}
