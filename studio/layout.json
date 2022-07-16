@@ -26,7 +26,16 @@
       "showPlotValuesInLegend": false,
       "isSynced": true,
       "xAxisVal": "timestamp",
-      "sidebarDimension": 240
+      "sidebarDimension": 240,
+      "followingViewWidth": 10
+    },
+    "RawMessages!2v0m9iq": {
+      "autoExpandMode": "auto",
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/blox_lis3dh/data"
     }
   },
   "globalVariables": {},
@@ -36,5 +45,10 @@
     "speed": 1,
     "messageOrder": "receiveTime"
   },
-  "layout": "Plot!3fa5k5u"
+  "layout": {
+    "first": "Plot!3fa5k5u",
+    "second": "RawMessages!2v0m9iq",
+    "direction": "column",
+    "splitPercentage": 75.52140504939628
+  }
 }
