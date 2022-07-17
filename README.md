@@ -9,5 +9,3 @@ The BloX LIS3DH publishes acceleration data as [geometry_msgs/msg/Vector3Stamped
 ## Visualization
 
 ![](resources/visualization.gif)
-
-Note, lagginess comes from the screenrecording. 
