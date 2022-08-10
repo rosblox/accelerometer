@@ -4,17 +4,17 @@
       "title": "Plot",
       "paths": [
         {
-          "value": "/blox_lis3dh/data.vector.x",
+          "value": "/lis3dh/data.vector.x",
           "enabled": true,
           "timestampMethod": "receiveTime"
         },
         {
-          "value": "/blox_lis3dh/data.vector.y",
+          "value": "/lis3dh/data.vector.y",
           "enabled": true,
           "timestampMethod": "receiveTime"
         },
         {
-          "value": "/blox_lis3dh/data.vector.z",
+          "value": "/lis3dh/data.vector.z",
           "enabled": true,
           "timestampMethod": "receiveTime"
         }
@@ -35,7 +35,7 @@
       "diffMethod": "custom",
       "diffTopicPath": "",
       "showFullMessageForDiff": false,
-      "topicPath": "/blox_lis3dh/data"
+      "topicPath": "/lis3dh/data"
     }
   },
   "globalVariables": {},
